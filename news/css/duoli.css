@@ -1,0 +1,39 @@
+.content{width:100%; margin-top:80px; margin-bottom:100px;}
+/*================ content start ======================*/
+.content .news{width:960px; margin:0 auto;}
+.content .news>h1{height:45px; margin-bottom:50px; color: #3f853f; background:url(../img/title_pic.png) no-repeat right center;
+background-size:55%;}
+.content .news>h1 span{display:inline-block; vertical-align: text-bottom;}
+.content .news>h1 span.span1{font-size:32px; font-weight:bold;}
+.content .news>h1 span.span2{font-size:14px; line-height:16px; text-transform: uppercase; font-weight:normal;}
+.content .news .news_list ul li{margin-bottom:40px;}
+.content .news .news_list ul li:first-of-type{padding-bottom:40px; border-bottom:1px dashed #CCCCCC;}
+.content .news .news_list ul li .left,.content .news .news_list ul li .right{float:left;}
+.content .news .news_list ul li .left{width:288px;}
+.content .news .news_list ul li .left img{width:100%;}
+.content .news .news_list ul li .right{width:622px; padding-left:50px;}
+.content .news .news_list ul li .right h4{font-size:14px; color:#999999; line-height:20px;
+margin-bottom:20px; margin-top:10px; font-weight:normal;}
+.content .news .news_list ul li .right h4 span{border-left:1px solid #999999; margin-left:5px; padding-left:5px;
+line-height:14px; display:inline-block;}
+.content .news .news_list ul li .right h3{font-size:24px; line-height:34px; color:#3f853f; margin-bottom:15px;}
+.content .news .news_list ul li .right article{font-size:14px; line-height:30px; color:#999999;}
+.content .news .news_list ul li .right article:hover{color:#3F853F;}
+.content .news .news_list ul li .right p.more{font-size:15px; color:#999999; line-height: 20px; padding-left: 17px;
+background:url(../img/news_more.png) no-repeat left center; float:right;}
+.content .news .news_list ul li .right p.more:hover{ color:#3F853F;}
+.content .news .pagebox{margin:20px auto;}
+.content .news .pagebox ul{width:330px; margin:0 auto;}
+.content .news .pagebox ul li{float:left;}
+.content .news .pagebox ul li.prev,.content .news .pagebox ul li.next{width:58px; text-align:center; height:30px;
+line-height:30px; border:1px solid #E5E5E5; margin:0 10px;}
+.content .news .pagebox ul li.prev a,.content .news .pagebox ul li.next a{
+	color:#3f853f;
+	font-size:14px;
+	display:block;
+}
+.content .news .pagebox ul li.page{width:32px; text-align:center; height:32px; line-height:32px; margin:0 3px;}
+.content .news .pagebox ul li.page a{color: #3f853f;}
+.content .news .pagebox ul li:nth-of-type(2),.content .news .pagebox ul li:hover{background:#3f853f;}
+.content .news .pagebox ul li:nth-of-type(2) a,.content .news .pagebox ul li:hover a{color:white;}
+/*================ content end ======================*/

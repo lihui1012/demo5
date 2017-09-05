@@ -1,0 +1,17 @@
+.content{width:100%; margin-top:80px; margin-bottom:100px;}
+/*================ content start ======================*/
+.content .ingredients{width:960px; margin:0 auto;}
+.content .ingredients>h1{height:45px; margin-bottom:50px; color: #3f853f; background:url(../img/title_pic.png) no-repeat right center;
+background-size:55%;}
+.content .ingredients>h1 span{display:inline-block; vertical-align: text-bottom;}
+.content .ingredients>h1 span.span1{font-size:32px; font-weight:bold;}
+.content .ingredients>h1 span.span2{font-size:14px; line-height:16px; text-transform: uppercase; font-weight:normal;}
+.content .ingredients ul li{float:left; width:468px; border:1px solid #dcdcdc; margin-bottom:20px;}
+.content .ingredients ul li.mr18{margin-right:18px;}
+.content .ingredients ul li .left,.content .ingredients ul li .right{float:left;}
+.content .ingredients ul li .left{width:138px; padding-left:40px; padding-top:56px;}
+.content .ingredients ul li .left h3{font-size:26px; color: #3f853f; line-height: 50px; font-weight: bold;}
+.content .ingredients ul li .left p{font-size:14px; color: #999999; line-height:28px;}
+.content .ingredients ul li .right{width:290px;}
+.content .ingredients ul li .right img{width:100%; display:block;}
+/*================ content end ======================*/

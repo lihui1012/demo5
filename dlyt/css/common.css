@@ -1,0 +1,11 @@
+header .container .header_nav .nav ul li:first-of-type a{color:#333333;}
+header .container .header_nav .nav ul li:nth-of-type(2) a{color:#999999;}
+/*================ subnav start ======================*/
+.subnav{width:960px; margin:0 auto;}
+.subnav ul{border-bottom:1px solid #e5e5e5;}
+.subnav ul li{float:left; width:120px; text-align:center; line-height:44px; 
+border-right:1px solid #e5e5e5; color:#000000; font-weight:bold; font-size:14px;}
+.subnav ul li:first-of-type{border-left:1px solid #e5e5e5;}
+.subnav ul li a{display:block;  font-size:14px; color:#000000; font-weight:normal;}
+.subnav ul li:nth-of-type(2) a,.subnav ul li:hover a{background:#e5e5e5;}
+/*================ subnav start ======================*/

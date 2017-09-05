@@ -1,0 +1,54 @@
+.subnav ul li:nth-of-type(2) a{background:white;}
+.subnav ul li:nth-of-type(3) a,.subnav ul li:hover a{background:#e5e5e5;}
+/*==================== content start =====================*/
+.content{width:100%; margin-top:80px;}
+.content .experience{width:960px; margin:0 auto;}
+.content .experience h1{height:45px; margin-bottom:50px; color: #3f853f; background:url(../img/title_pic.png) no-repeat right center;
+background-size:55%;}
+.content .experience h1 span{display:inline-block; vertical-align: text-bottom;}
+.content .experience h1 span.span1{font-size:32px; font-weight:bold;}
+.content .experience h1 span.span2{font-size:14px; line-height:16px; text-transform: uppercase; font-weight:normal;}
+/*section1*/
+.content .experience .section1 p{line-height:28px; color:#999999; font-size:15px; margin-bottom:30px;}
+.content .experience .section1 img{width:100%; margin-bottom:30px;}
+/*section2*/
+.content .experience .section2,.content .experience .section3{margin-bottom:50px;}
+.content .experience .section2 h2,
+.content .experience .section3 h2,
+.content .experience .section4 h2
+{font-size:40px; line-height:50px; color:#3f853f; font-weight:bold; margin-bottom:30px;}
+.content .experience .section2 h2 span,
+.content .experience .section3 h2 span,
+.content .experience .section4 h2 span{font-weight:normal;}
+.content .experience .section2 .dgl{position:relative;}
+.content .experience .section2 .dgl .left,.content .experience .section2 .dgl .right{float:left;}
+.content .experience .section2 .dgl .left{width:556px;}
+.content .experience .section2 .dgl .left img{width:100%;}
+.content .experience .section2 .dgl .right{padding-top:50px; width:404px;}
+.content .experience .section2 .dgl .right p,.content .experience .section2 .dgl .right h3{text-align:center;}
+.content .experience .section2 .dgl .right p{color: #999999; line-height: 30px; margin-bottom: 10px; font-size:15px;}
+.content .experience .section2 .dgl .right h3{font-size: 20px; color: #3f853f; line-height: 40px; font-weight: normal;}
+.content .experience .section2 .dgl article{padding:40px 0 20px 80px;}
+.content .experience .section2 .dgl article h3{font-size: 20px; color: #3f853f; line-height: 40px; font-weight: bold;}
+.content .experience .section2 .dgl article p{font-size: 15px; line-height: 40px; color: #999999;}
+.content .experience .section2 .dgl .dgl_img{width:480px; position:absolute; right:0; top:172px;}
+.content .experience .section2 .dgl .dgl_img img{width:100%;}
+/*section3*/
+.content .experience .section3 .person .left,.content .experience .section3 .person .right{float:left;}
+.content .experience .section3 .person .left{width:460px;}
+.content .experience .section3 .person .left img{width:100%;}
+.content .experience .section3 .person .right{padding:60px; width:380px;}
+.content .experience .section3 .person .right h3{font-size: 40px; color: #3f853f; line-height: 40px; font-weight: bold;}
+.content .experience .section3 .person .right h3 strong{font-size: 28px; font-weight: normal; margin-left: 15px;}
+.content .experience .section3 .person .right h4{font-size: 14px; color: #666666; line-height: 40px; font-weight: normal;}
+.content .experience .section3 .person .right article{margin-top:30px;}
+.content .experience .section3 .person .right article p{line-height:28px; color: #999999; font-size:15px; margin-bottom:28px;}
+/*section4*/
+.content .experience .section4{margin-bottom:100px;}
+.content .experience .section4 .sec_list ul li{float:left; width:293px; margin-bottom:10px;}
+.content .experience .section4 .sec_list ul li.mr40{margin-right:40px;}
+.content .experience .section4 .sec_list ul li img{width:100%;}
+.content .experience .section4 .sec_list ul li h3{font-size: 20px; line-height: 30px; color: #3f853f; font-weight: bold;
+margin-bottom: 10px; margin-top: 10px;}
+.content .experience .section4 .sec_list ul li p{font-size: 15px; color: #999999; line-height: 28px; height: 84px;}
+/*==================== content end =====================*/

@@ -1,0 +1,19 @@
+.subnav ul li:nth-of-type(2) a{background:white;}
+.subnav ul li:nth-of-type(4) a,.subnav ul li:hover a{background:#e5e5e5;}
+/*content*/
+.content .culture{width:960px; margin:0 auto;}
+.content .culture h1{height:45px; margin-bottom:50px; color: #3f853f; background:url(../img/title_pic.png) no-repeat right center;
+background-size:55%;}
+.content .culture h1 span{display:inline-block; vertical-align: text-bottom;}
+.content .culture h1 span.span1{font-size:32px; font-weight:bold;}
+.content .culture h1 span.span2{font-size:14px; line-height:16px; text-transform: uppercase; font-weight:normal;}
+.content .culture ul{margin-bottom:80px; padding-top:10px;}
+.content .culture ul li{float:left; width:271px; margin-right:48px;}
+.content .culture ul li:first-of-type{margin-left:24px;}
+.content .culture ul li:last-of-type{margin-right:0;}
+.content .culture ul li img{margin:0 auto; display:block;}
+.content .culture ul li h2{font-size:40px; line-height:50px; color: #3f853f; font-weight: bold;
+    margin-top: 20px; margin-bottom: 10px; text-align: center;}
+.content .culture ul li h2 span{font-weight:normal;}
+.content .culture ul li p{line-height:28px; font-size:15px; color:#999999; text-align:center;}
+.content .culture>img{width:100%;}

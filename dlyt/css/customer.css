@@ -1,0 +1,22 @@
+.subnav ul li:nth-of-type(2) a{background:white;}
+.subnav ul li:nth-of-type(6) a,.subnav ul li:hover a{background:#e5e5e5;}
+/*==================== content start =====================*/
+.content{width:100%; margin-top:80px; margin-bottom:100px;}
+.content .customer{width:960px; margin:0 auto;}
+.content .customer>h1{height:45px; margin-bottom:50px; color: #3f853f; background:url(../img/title_pic.png) no-repeat right center;
+background-size:55%;}
+.content .customer>h1 span{display:inline-block; vertical-align: text-bottom;}
+.content .customer>h1 span.span1{font-size:32px; font-weight:bold;}
+.content .customer>h1 span.span2{font-size:14px; line-height:16px; text-transform: uppercase; font-weight:normal;}
+.content .customer .money,.content .customer .edutation,.content .customer .gaoduan,
+.content .customer .cars{margin-bottom:60px;}
+.content .customer .money h3,.content .customer .edutation h3,.content .customer .gaoduan h3,
+.content .customer .cars h3{width: 188px; height: 60px; line-height: 60px; text-align: center;
+font-size: 20px; background-color: rgb(63, 133, 63); color:white; margin-bottom: 40px; font-weight: normal;} 
+.content .customer .money ul li,.content .customer .edutation ul li,.content .customer .gaoduan ul li,
+.content .customer .cars ul li{float:left; width:224px; height:118px; border:1px solid #CCCCCC; margin-right:18px; margin-bottom:20px;}
+.content .customer .money ul li:nth-of-type(4n),.content .customer .edutation ul li:nth-of-type(4n),.content .customer .gaoduan ul li:nth-of-type(4n),
+.content .customer .cars ul li:nth-of-type(4n){margin-right:0;}
+.content .customer .money ul li img,.content .customer .edutation ul li img,.content .customer .gaoduan ul li img,
+.content .customer .cars ul li img{width:100%;}
+/*==================== content end =====================*/

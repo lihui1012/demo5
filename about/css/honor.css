@@ -1,0 +1,80 @@
+.subnav ul li:nth-of-type(2) a{background:white;}
+.subnav ul li:nth-of-type(6) a,.subnav ul li:hover a{background:#e5e5e5;}
+/*content*/
+.content .honor{width:960px; margin:0 auto;}
+.content .honor h1{height:45px; margin-bottom:50px; color: #3f853f; background:url(../img/title_pic.png) no-repeat right center;
+background-size:55%;}
+.content .honor h1 span{display:inline-block; vertical-align: text-bottom;}
+.content .honor h1 span.span1{font-size:32px; font-weight:bold;}
+.content .honor h1 span.span2{font-size:14px; line-height:16px; text-transform: uppercase; font-weight:normal;}
+
+.honor_list{
+    width: 100%;
+}
+.honor_list ul{
+    margin: 0 -2%;
+}
+.honor_list ul li{
+    float: left;
+    width: 46%;
+    margin: 0 2%;
+    margin-bottom: 80px;
+    position: relative;
+    max-height: 285px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.honor_list ul li .honor_pic{
+    width: 38%;
+    float: left;
+    border: 3px solid #e7e6e6;
+    box-sizing: border-box;
+}
+.honor_list ul li .honor_pic img{
+    display: inherit;
+    width: 100%;
+}
+.honor_list ul li .honor_right{
+    float: left;
+    width: 62%;
+    padding-left: 5%;
+    box-sizing: border-box;
+}
+.honor_list ul li .honor_right h3{
+    font-size: 24px;
+    color: #3f853f;
+    line-height: 30px;
+    font-weight: bold;
+}
+.honor_list ul li .honor_right h3 span{
+    font-size: 18px;
+    font-weight: normal;
+    margin-left: 5px;
+}
+.honor_list ul li .honor_right .article{
+    max-height: 210px;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 7;
+    -webkit-box-orient: vertical;
+}
+.honor_list ul li .honor_right .article p{
+    font-size: 14px;
+    color: #999999;
+    line-height: 30px;
+}
+.honor_list ul li .honor_right .article p strong{
+    color: #3f853f;
+    margin-right: 5px;
+}
+.honor_dsj{
+    width: 57%;
+    height: 35px;
+    background: url("../img/honor_dsj.png") no-repeat top right;
+    border-bottom: 1px solid #dadada;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

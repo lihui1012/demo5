@@ -1,0 +1,40 @@
+.subnav ul li:nth-of-type(2) a{background:white;}
+.subnav ul li:nth-of-type(5) a,.subnav ul li:hover a{background:#e5e5e5;}
+/*content*/
+.content{margin-bottom:100px;}
+.content .registration{width:960px; margin:0 auto;}
+.content .registration h1{height:45px; margin-bottom:50px; color: #3f853f; background:url(../img/title_pic.png) no-repeat right center;
+background-size:55%;}
+.content .registration span{display:inline-block; vertical-align: text-bottom;}
+.content .registration span.span1{font-size:32px; font-weight:bold;}
+.content .registration span.span2{font-size:14px; line-height:16px; text-transform: uppercase; font-weight:normal;}
+.content .registration .hdbm{width:240px; height:80px; text-align:center; line-height:80px; background:#3f853f;
+font-size:20px; margin:0 auto; margin-bottom:60px;}
+.content .registration .hdbm a{display:block; color:white;}
+.content .registration .registration_list ul li{float:left; width:220px; margin-right:20px; position:relative;}
+.content .registration .registration_list ul li a{display:block;}
+.content .registration .registration_list ul li:nth-of-type(4n){margin-right:0;}
+.content .registration .registration_list ul li img{display:block; border-radius:50%; border:8px solid #b39e84; width:204px; 
+height:204px;}
+.content .registration .registration_list ul li p,.content .registration .registration_list ul li h3{text-align:center;}
+.content .registration .registration_list ul li p{font-size:15px; color:#333333; position:absolute; line-height:20px;
+left:0; bottom:0; z-index:999; width:100%; top:177px; }
+.content .registration .registration_list ul li span{display:block; width:100%; height:55px; left:0; bottom:0; background:url(../img/pic_img_bj.png) 100% 100%;
+position:absolute; top:165px;}
+.content .registration .registration_list ul li h3{color:#333; font-size:20px; line-height:30px; height:90px; margin-top:10px; 
+margin-bottom:30px; font-weight:normal;}
+
+.content .registration .pagebox{margin:20px auto;}
+.content .registration .pagebox ul{width:330px; margin:0 auto;}
+.content .registration .pagebox ul li{float:left;}
+.content .registration .pagebox ul li.prev,.content .registration .pagebox ul li.next{width:58px; text-align:center; height:30px;
+line-height:30px; border:1px solid #E5E5E5; margin:0 10px;}
+.content .registration .pagebox ul li.prev a,.content .registration .pagebox ul li.next a{
+	color:#3f853f;
+	font-size:14px;
+	display:block;
+}
+.content .registration .pagebox ul li.page{width:32px; text-align:center; height:32px; line-height:32px; margin:0 3px;}
+.content .registration .pagebox ul li.page a{color: #3f853f;}
+.content .registration .pagebox ul li:nth-of-type(2),.content .registration .pagebox ul li:hover{background:#3f853f;}
+.content .registration .pagebox ul li:nth-of-type(2) a,.content .registration .pagebox ul li:hover a{color:white;}

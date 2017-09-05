@@ -1,0 +1,46 @@
+.subnav ul li:nth-of-type(2) a{background:white;}
+.subnav ul li:nth-of-type(3) a,.subnav ul li:hover a{background:#e5e5e5;}
+/*============== content start ===============*/
+body{overflow-x:hidden;}
+.content .concept{width:960px; margin:0 auto; margin-bottom:100px;}
+.content .concept h1{height:45px; margin-bottom:50px; color: #3f853f; background:url(../img/title_pic.png) no-repeat right center;
+background-size:55%;}
+.content .concept h1 span{display:inline-block; vertical-align: text-bottom;}
+.content .concept h1 span.span1{font-size:32px; font-weight:bold;}
+.content .concept h1 span.span2{font-size:14px; line-height:16px; text-transform: uppercase; font-weight:normal;}
+.content .concept h2{font-size: 40px; line-height: 50px; color: #3f853f; font-weight: bold;}
+.content .concept h2 strong{font-weight:normal;}
+.content .concept h3{margin:10px 0; font-size: 20px; line-height: 40px; color: #3f853f; font-weight: bold;}
+.content .concept p{line-height:28px; color:#999999;}
+.content .concept .concept_sec1 p{margin-bottom:30px;}
+.content .concept .concept_sec1 img{width:100%;}
+.content .concept .concept_sec2{margin-top:50px;}
+.content .concept .concept_sec2 .top{margin-top:30px;}
+.content .concept .concept_sec2 .left,.content .concept .concept_sec2 .right{float:left;}
+.content .concept .concept_sec2 .top .left,.content .concept .concept_sec2 .middle .right,
+.content .concept .concept_sec2 .bottom .left{width:480px;}
+.content .concept .concept_sec2 .top .left img,.content .concept .concept_sec2 .middle .right img,
+.content .concept .concept_sec2 .bottom .left img{width:100%;}
+.content .concept .concept_sec2 .top .right,.content .concept .concept_sec2 .middle .left,
+.content .concept .concept_sec2 .bottom .right{padding:77px 40px 0 40px; width:400px; font-size:14px; color:#999999;
+line-height:28px;}
+.content .concept .concept_sec2 .top .left,.content .concept .concept_sec2 .bottom .left{
+	transform:translateX(-650px);
+}
+.content .concept .concept_sec2 .top .right,.content .concept .concept_sec2 .bottom .right{
+	transform:translateX(650px);
+}
+.content .concept .concept_sec2 .middle{
+	opacity:0;
+}
+.content .concept .concept_sec3{margin-top:50px; margin-bottom:70px;}
+.content .concept .concept_sec3 p{line-height:40px; font-size:15px;}
+.content .concept .concept_sec3 p:last-of-type{margin-top:40px;}
+.content .concept .concept_sec4 h2{margin-bottom:15px;}
+.content .concept .concept_sec4 h3{margin-top:40px; margin-bottom:10px;}
+.content .concept .concept_sec4 .left{width:400px; padding-right:80px;}
+.content .concept .concept_sec4 .left img{margin-top:45px; width:100%;}
+.content .concept .concept_sec4 .left,.content .concept .concept_sec4 .right{float:left;}
+.content .concept .concept_sec4 .right{width:480px;}
+.content .concept .concept_sec4 .right img{width:100%;}
+/*============== content end ===============*/

@@ -1,0 +1,26 @@
+/*================== content start ========================*/
+body{overflow-x:hidden;}
+.content .responsive{width:960px; margin:0 auto;}
+.content .responsive h1{height:45px; margin-bottom:50px; color: #3f853f; background:url(../img/title_pic.png) no-repeat right center;
+background-size:55%;}
+.content .responsive span{display:inline-block; vertical-align: text-bottom;}
+.content .responsive span.span1{font-size:32px; font-weight:bold;}
+.content .responsive span.span2{font-size:14px; line-height:16px; text-transform: uppercase; font-weight:normal;}
+.content .responsive .responsive_sec2 .top,.content .responsive .responsive_sec2 .bottom{margin-bottom:80px;}
+.content .responsive .responsive_sec1 h2{font-size:40px; line-height:50px; color: #3f853f; font-weight:bold;}
+.content .responsive .responsive_sec1 h2 strong{font-weight:normal;}
+.content .responsive .responsive_sec1 h3{font-size:20px; line-height: 50px; color: #3f853f; font-weight: bold; margin-top: 10px;}
+.content .responsive .responsive_sec1 img{width:100%; margin:70px 0;}
+.content .responsive .responsive_sec1 p,.content .responsive .responsive_sec2 p{font-size: 15px; color: #999999; line-height: 28px;}
+.content .responsive .responsive_sec2{margin-top:70px;}
+.content .responsive .responsive_sec2 .left,.content .responsive .responsive_sec2 .right{float:left;}
+.content .responsive .responsive_sec2 .top .left,.content .responsive .responsive_sec2 .bottom .right{width:528px;}
+.content .responsive .responsive_sec2 img{width:100%;}
+.content .responsive .responsive_sec2 .top .right,.content .responsive .responsive_sec2 .bottom .left{width:352px; padding:40px 50px 0 30px;}
+.content .responsive .responsive_sec2 h2{margin-bottom:20px; font-size:40px; line-height: 50px; color: #3f853f; font-weight: bold;}
+.content .responsive .responsive_sec2 h2 span{font-weight:normal;}
+.content .responsive .responsive_sec2 .top .left{transform:translateX(1200px);}
+.content .responsive .responsive_sec2 .top .right{transform:translateX(-1100px);}
+.content .responsive .responsive_sec2 .bottom .left{transform:translateX(1100px)}
+.content .responsive .responsive_sec2 .bottom .right{transform:translateX(-1200px)}
+/*================== content end ========================*/

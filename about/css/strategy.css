@@ -1,0 +1,36 @@
+.subnav ul li:nth-of-type(2) a{background:white;}
+.subnav ul li:nth-of-type(7) a,.subnav ul li:hover a{background:#e5e5e5;}
+/*content*/
+.content .strategy{width:960px; margin:0 auto;}
+.content .strategy h1{height:45px; margin-bottom:50px; color: #3f853f; background:url(../img/title_pic.png) no-repeat right center;
+background-size:55%;}
+.content .strategy h1 span{display:inline-block; vertical-align: text-bottom;}
+.content .strategy h1 span.span1{font-size:32px; font-weight:bold;}
+.content .strategy h1 span.span2{font-size:14px; line-height:16px; text-transform: uppercase; font-weight:normal;}
+.content .strategy .strategy_sec1{margin-bottom:50px;}
+.content .strategy .strategy_sec1 h2,
+.content .strategy .strategy_sec2 h2,
+.content .strategy .strategy_sec3 h2{margin-bottom:15px; font-size: 40px; color: #3f853f; line-height: 50px; font-weight: bold;}
+.content .strategy .strategy_sec1 h2 span,
+.content .strategy .strategy_sec2 h2 span,
+.content .strategy .strategy_sec3 h2 span{font-weight:normal;}
+.content .strategy .strategy_sec1 h3,
+.content .strategy .strategy_sec2 h3,
+.content .strategy .strategy_sec3 h3{font-size:20px; line-height:40px; color: #3f853f; font-weight:bold;}
+.content .strategy .strategy_sec1 p,.content .strategy .strategy_sec2 p,
+.content .strategy .strategy_sec3 .left p{line-height:28px; color:#999999; font-size:15px;}
+.content .strategy .strategy_sec1 p:first-of-type{margin-top:10px;}
+.content .strategy .strategy_sec1 img,.content .strategy .strategy_sec2 img{width:100%; margin:28px 0;}
+.content .strategy .strategy_sec2 p{margin-top:10px;}
+.content .strategy .strategy_sec3 .left,.content .strategy .strategy_sec3 .right{float:left;}
+.content .strategy .strategy_sec3 .left{width:422px; padding-right:58px;}
+.content .strategy .strategy_sec3 .right{width:480px; padding-top:25px;}
+.content .strategy .strategy_sec3 .right img{width:100%;}
+.content .strategy .strategy_sec3 h3{margin-top:20px; padding-left:35px;}
+.content .strategy .strategy_sec3 h3{background-position:left center; background-repeat:no-repeat;}
+.content .strategy .strategy_sec3 h3.title1{background-image:url(../img/strategy_icon1.png);}
+.content .strategy .strategy_sec3 h3.title2{background-image:url(../img/strategy_icon2.png);}
+.content .strategy .strategy_sec3 h3.title3{background-image:url(../img/strategy_icon3.png);}
+.content .strategy .strategy_sec3 h3.title4{background-image:url(../img/strategy_icon4.jpg);}
+.content .strategy .strategy_sec3 h3.title5{background-image:url(../img/strategy_icon5.png);}
+.content .strategy .strategy_sec3 h3.title6{background-image:url(../img/strategy_icon6.png);}

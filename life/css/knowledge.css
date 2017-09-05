@@ -1,0 +1,115 @@
+.subnav ul li:nth-of-type(2) a{background:white;}
+.subnav ul li:nth-of-type(4) a,.subnav ul li:hover a{background:#e5e5e5;}
+/*============== content start ===============*/
+.content{margin-bottom:100px;}
+.content .knowledge{width:960px; margin:0 auto;}
+.content .knowledge h1{height:45px; margin-bottom:50px; color: #3f853f; background:url(../img/title_pic.png) no-repeat right center;
+background-size:55%;}
+.content .knowledge h1 span{display:inline-block; vertical-align: text-bottom;}
+.content .knowledge h1 span.span1{font-size:32px; font-weight:bold;}
+.content .knowledge h1 span.span2{font-size:14px; line-height:16px; text-transform: uppercase; font-weight:normal;}
+.content .knowledge .knowledge_sec1{padding-bottom:50px; margin-bottom:50px; border-bottom:1px dashed #CCCCCC;}
+.content .knowledge .knowledge_sec1 h2,
+.content .knowledge .knowledge_sec2 h2,
+.content .knowledge .knowledge_sec3 h2{margin-bottom:15px; font-size: 40px; color: #3f853f; line-height: 50px; font-weight: bold;}
+.content .knowledge .knowledge_sec1 h2 span,
+.content .knowledge .knowledge_sec2 h2 span,
+.content .knowledge .knowledge_sec3 h2 span{font-weight:normal;}
+.content .knowledge .knowledge_sec1 p{line-height:28px; font-size:14px; color:#999999;}
+.content .knowledge .knowledge_sec2 .left,.content .knowledge .knowledge_sec2 .right{float:left;}
+.content .knowledge .knowledge_sec2 .left{padding:96px 20px 0 76px; width:288px;}
+.content .knowledge .knowledge_sec2 .left p{font-size:15px; color:#999999; margin-bottom:10px; line-height:28px;
+padding-left:15px; background:url(../img/knowledge_dian.jpg) no-repeat left 12px;}
+.content .knowledge .knowledge_sec2 h2{margin-bottom:50px;}
+.content .knowledge .knowledge_sec2 .right{width:576px;}
+.content .knowledge .knowledge_sec2 .right img{width:472px;}
+.content .knowledge .knowledge_sec2{padding-bottom:50px; margin-bottom:50px; border-bottom:1px dashed #CCCCCC;}
+.content .knowledge .knowledge_sec3 p{line-height:28px; font-size:14px; color:#999999; margin-bottom:40px;}
+/*轮播图*/
+ .knowledge_list{
+    width: 100%;
+}
+.knowledge_list .k_section{
+    float: left;
+    width: 100%;
+    /*height: 400px;*/
+    margin-bottom: 40px;
+}
+.knowledge_list .k_section ul li{
+    float: left;
+    width: 960px;
+    height: 320px;
+}
+.knowledge_list .k_section ul li .k_pic{
+    float: left;
+    width: 50%;
+}
+.knowledge_list .k_section ul li .k_pic img{
+    display: inherit;
+    width: 100%;
+}
+.knowledge_list .k_section ul li .right{
+    float: left;
+    width: 50%;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+.k_section ul li .right h3{
+    font-size: 40px;
+    color: #3f853f;
+    line-height: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.k_section ul li .right h4{
+    font-size: 20px;
+    color: #3f853f;
+    line-height: 30px;
+    font-weight: bold;
+}
+.k_section ul li .right .article{
+    font-size: 14px;
+    color: #999999;
+    line-height: 28px;
+    height: 140px;
+    margin-top: 20px;
+}
+.k_section ul li .right .k_switch span{
+    display: inline-block;
+    float: left;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    cursor: pointer;
+}
+.k_section ul li .right .k_switch .knowledge_prev{
+    background: #3f853f url("../img/knowledge_prev.png") no-repeat center center;
+}
+.k_section ul li .right .k_switch .knowledge_next{
+    background: #3f853f url("../img/knowledge_next.png") no-repeat center center;
+}
+
+.k_section ul li .right .k_switch .knowledge_prev:hover{
+    background: #4caf4c url("../img/knowledge_prev.png") no-repeat center center;
+}
+.k_section ul li .right .k_switch .knowledge_next:hover{
+    background: #4caf4c url("../img/knowledge_next.png") no-repeat center center;
+}
+
+.k_section ul li .right .k_switch p{
+    display: inline-block;
+    float: left;
+    width: 120px;
+    height: 58px;
+    line-height: 60px;
+    text-align: center;
+    border: 1px solid #3f853f;
+    font-size: 14px !important;
+    color: #3f853f;
+}
+.k_section ul li .right .k_switch p.p1{
+    margin-right: 10px;
+}
+/*============== content end ===============*/

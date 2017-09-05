@@ -1,0 +1,25 @@
+.subnav ul li:nth-of-type(2) a{background:white;}
+.subnav ul li:nth-of-type(5) a,.subnav ul li:hover a{background:#e5e5e5;}
+/*==================== content start =====================*/
+.content{width:100%; margin-top:80px; margin-bottom:100px;}
+.content .dlthy{width:960px; margin:0 auto;}
+.content .dlthy>h1{height:45px; margin-bottom:50px; color: #3f853f; background:url(../img/title_pic.png) no-repeat right center;
+background-size:55%;}
+.content .dlthy>h1 span{display:inline-block; vertical-align: text-bottom;}
+.content .dlthy>h1 span.span1{font-size:32px; font-weight:bold;}
+.content .dlthy>h1 span.span2{font-size:14px; line-height:16px; text-transform: uppercase; font-weight:normal;}
+/*article1*/
+.content .dlthy .article1,.content .dlthy .article2{margin-bottom:50px;}
+.content .dlthy .article1 h2{font-size: 40px; line-height: 50px; color: #3f853f; font-weight: bold; margin-bottom: 10px;}
+.content .dlthy .article1 h2 span{font-weight:normal; margin-left:10px;}
+.content .dlthy p{line-height:28px; color:#999999; font-size:15px;}
+.content .dlthy .article2 .left,.content .dlthy .article2 .right{float:left;}
+.content .dlthy .article2 .left{width:544px; padding-right:80px;}
+.content .dlthy .article2 .left h3{font-size: 26px; color: #3f853f; font-weight: bold; line-height: 40px; margin-bottom: 10px;}
+.content .dlthy .article2 .left img{margin-top:47px; width:100%;}
+.content .dlthy .article2 .right{width:336px;}
+.content .dlthy .article2 .right img{width:100%;}
+/*article3*/
+.content .dlthy .article3 h3{font-size: 26px; color: #3f853f; line-height: 40px; font-weight: bold; margin-bottom: 20px;}
+.content .dlthy .article3 h4{font-size: 20px; line-height: 28px; color: #3f853f; font-weight: bold; margin-bottom: 20px;}
+/*==================== content end =====================*/

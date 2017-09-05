@@ -1,0 +1,21 @@
+.subnav ul li:nth-of-type(2) a{background:white;}
+.subnav ul li:nth-of-type(6) a,.subnav ul li:hover a{background:#e5e5e5;}
+/*content*/
+.content .quality{width:960px; margin:0 auto;}
+.content .quality h1{height:45px; margin-bottom:50px; color: #3f853f; background:url(../img/title_pic.png) no-repeat right center;
+background-size:55%;}
+.content .quality h1 span{display:inline-block; vertical-align: text-bottom;}
+.content .quality h1 span.span1{font-size:32px; font-weight:bold;}
+.content .quality h1 span.span2{font-size:14px; line-height:16px; text-transform: uppercase; font-weight:normal;}
+.content .quality h2{font-size: 40px; line-height: 50px; color: #3f853f; font-weight: bold; margin-bottom:10px;}
+.content .quality h2 span{font-weight:normal;}
+.content .quality p{line-height:28px; color:#999999; font-size:15px;}
+.content .quality .quality_sec1{margin-bottom:70px;}
+.content .quality .quality_sec1 img{margin-top:50px; width:100%;}
+.content .quality .quality_sec2 h3{font-size: 20px; line-height: 50px; color: #3f853f; font-weight: bold;}
+.content .quality .quality_sec2>img{margin-top:50px; width:100%; margin-bottom:100px;}
+.content .quality .quality_sec2 .quality_list ul li{float:left; width:448px; margin-right:61px; margin-bottom:30px;}
+.content .quality .quality_sec2 .quality_list ul li:nth-of-type(2n){margin-right:0;}
+.content .quality .quality_sec2 .quality_list ul li .image{ margin-bottom:20px; overflow:hidden;}
+.content .quality .quality_sec2 .quality_list ul li img{width:100%; transition:.5s;}
+.content .quality .quality_sec2 .quality_list ul li img:hover{transform:scale(1.2,1.2);}

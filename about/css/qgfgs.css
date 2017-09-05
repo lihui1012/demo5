@@ -1,0 +1,14 @@
+.subnav ul li:nth-of-type(2) a{background:white;}
+.subnav ul li:nth-of-type(8) a,.subnav ul li:hover a{background:#e5e5e5;}
+/*content*/
+.content .qgfgs{width:960px; margin:0 auto;}
+.content .qgfgs ul{width:550px; margin:0 auto; margin-bottom:60px;}
+.content .qgfgs ul li{float:left; width:255px; margin:0 10px; height:80px; line-height:80px;
+text-align:center; cursor:pointer; background:#3f853f; color:white; font-size:20px; display:block; border-radius:10px;}
+.content .qgfgs ul li.normal{background:#3f853f; color:white;}
+.content .qgfgs ul li.active{color:#000; background:#e5e5e5;}/*灰*/
+.content .qgfgs ul li:hover{background:#e5e5e5; color:#000;}/*绿*/
+.content .qgfgs .article img{width:100%;}
+.content .qgfgs .article h3{font-size:20px; line-height:30px; color:#3f853f; margin:20px 0; font-weight:normal;}
+.content .qgfgs .article p{line-height:28px; font-size:15px; color:#999999; margin-bottom:15px;}
+.content .qgfgs .article .article1{display:none;}

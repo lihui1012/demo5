@@ -1,0 +1,36 @@
+.subnav ul li:nth-of-type(2) a{background:white;}
+.subnav ul li:nth-of-type(4) a,.subnav ul li:hover a{background:#e5e5e5;}
+/*content*/
+.content .scientific{width:960px; margin:0 auto;}
+.content .scientific h1{height:45px; margin-bottom:50px; color: #3f853f; background:url(../img/title_pic.png) no-repeat right center;
+background-size:55%;}
+.content .scientific h1 span{display:inline-block; vertical-align: text-bottom;}
+.content .scientific h1 span.span1{font-size:32px; font-weight:bold;}
+.content .scientific h1 span.span2{font-size:14px; line-height:16px; text-transform: uppercase; font-weight:normal;}
+.content .scientific .scientific_list ul li .left,.content .scientific .scientific_list ul li .right{float:left;}
+.content .scientific .scientific_list ul li.one .left,
+.content .scientific .scientific_list ul li.two .right,
+.content .scientific .scientific_list ul li.three .left,
+.content .scientific .scientific_list ul li.four .right,
+.content .scientific .scientific_list ul li.five .left,
+.content .scientific .scientific_list ul li.six .right,
+.content .scientific .scientific_list ul li.seven .left{
+	width:480px;
+	overflow:hidden;
+}
+.content .scientific .scientific_list ul li img{width:100%; display:block; transition:.5s;}
+.content .scientific .scientific_list ul li img:hover{transform:scale(1.2,1.2);}
+.content .scientific .scientific_list ul li.one .right,
+.content .scientific .scientific_list ul li.two .left,
+.content .scientific .scientific_list ul li.three .right,
+.content .scientific .scientific_list ul li.four .left,
+.content .scientific .scientific_list ul li.five .right,
+.content .scientific .scientific_list ul li.six .left,
+.content .scientific .scientific_list ul li.seven .right{
+	padding:96px 57px 0 57px;
+	width:366px;
+}
+.content .scientific .scientific_list ul li h2{font-size: 40px; line-height: 50px; color: #3f853f; font-weight: bold;}
+.content .scientific .scientific_list ul li h2 span{font-weight:normal;}
+.content .scientific .scientific_list ul li p{margin-top:10px; line-height:28px; color:#999999;
+font-size:15px;}

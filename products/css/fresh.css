@@ -1,0 +1,29 @@
+/*================ subnav start ======================*/
+.subnav{width:960px; margin:0 auto;}
+.subnav ul{border-bottom:1px solid #e5e5e5;}
+.subnav ul li{float:left; width:120px; text-align:center; line-height:44px; 
+border-right:1px solid #e5e5e5; color:#000000; font-weight:bold; font-size:14px;}
+.subnav ul li:first-of-type{border-left:1px solid #e5e5e5;}
+.subnav ul li a{display:block;  font-size:14px; color:#000000; font-weight:normal;}
+.subnav ul li:nth-of-type(2) a{background:white;}
+.subnav ul li:nth-of-type(3) a,.subnav ul li:hover a{background:#e5e5e5;}
+/*================ subnav start ======================*/
+/*================ content start ======================*/
+.content .fresh{width:960px; margin:0 auto;}
+.content .fresh>h1{height:45px; margin-bottom:50px; color: #3f853f; background:url(../img/title_pic.png) no-repeat right center;
+background-size:55%;}
+.content .fresh>h1 span{display:inline-block; vertical-align: text-bottom;}
+.content .fresh>h1 span.span1{font-size:32px; font-weight:bold;}
+.content .fresh>h1 span.span2{font-size:14px; line-height:16px; text-transform: uppercase; font-weight:normal;}
+.content .fresh .fresh_sec1 h3{color:#3f853f; font-size:20px; line-height:30px; margin-bottom:60px;}
+.content .fresh .fresh_sec1 img{width:100%;}
+.content .fresh .fresh_sec1 p{margin-top:20px; margin-bottom:50px; font-size:14px; line-height:28px; color:#999999;}
+.content .fresh .fresh_sec1 p.url{margin-top:10px; margin-bottom:60px; font-size:20px; color:#3f853f; line-height:30px; font-weight:bold;}
+.content .fresh .fresh_sec1 p.url a{color:#3f853f;}
+.content .fresh .fresh_sec1 p.url a:hover{text-decoration:underline;}
+.content .fresh .fresh_sec1 img.code{width:130px; height:130px;}
+.content .fresh .fresh_sec1 p.shop{font-size:12pt; color:#339966; margin-top:0; margin-bottom:20px;}
+
+.content .fresh .fresh_sec2 h2{font-size: 40px; color: #3f853f; line-height: 50px; font-weight: bold; margin-bottom: 50px; margin-top: 60px;}
+.content .fresh .fresh_sec2 img{width:100%;}
+/*================ content end ======================*/

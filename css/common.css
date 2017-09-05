@@ -1,0 +1,81 @@
+header{width:100%;}
+/*======================= header start ========================*/
+header .container{position:relative;}
+header .container,footer .container{width:960px; margin:0 auto;}
+header .container .logo,
+header .container .header_nav,
+header .container .header_code{
+	float:left;
+}
+header .container .logo,
+header .container .header_nav{
+	padding-top:10px;
+	padding-bottom:10px;
+}
+header .container .logo{margin-right:55px;}
+header .container .logo img{display:block;}
+
+header .container .header_nav{margin-right:30px;}
+header .container .header_nav .header_top .header_language,
+header .container .header_nav .header_top .header_search{
+	float:right;
+	height:50px; 
+	line-height:50px;
+}
+header .container .header_nav .header_top .header_language{height:50px; line-height:50px;
+width:28px; font-size:12px; color:#666666; background:url(../img/zhong_03.gif) no-repeat right center;
+ cursor:pointer; margin-right:25px;}
+header .container .header_nav .header_top .header_search input{width:198px; padding-left:10px; padding-right:30px;
+border:1px solid #e7e7e7; border-radius:20px; font-size:14px; height:30px; line-height:30px; font-family:"微软雅黑";
+background:url(../img/fdj.png) no-repeat 94% center;}
+header .container .header_nav .header_top .header_search input:focus{outline:none;}
+
+header .container .header_nav .nav ul li{width:28px; line-height:48px; float:left; margin-left:30px;}
+header .container .header_nav .nav ul li~li{width:56px; position:relative;}
+header .container .header_nav .nav ul li a{font-size:14px; display:block; font-weight:bold;}
+header .container .header_nav .nav ul li>a{color:#333333;}
+header .container .header_nav .nav ul li>a:hover,
+header .container .header_nav .nav ul li .subnav a{color:#999999;}
+header .container .header_nav .nav ul li:first-of-type a{color:#999999;}
+header .container .header_nav .nav ul li:nth-of-type(2) .subnav{height:240px;}
+header .container .header_nav .nav ul li:nth-of-type(3) .subnav{height:96px;}
+header .container .header_nav .nav ul li:nth-of-type(4) .subnav{height:144px;}
+header .container .header_nav .nav ul li:nth-of-type(5) .subnav{height:192px;}
+header .container .header_nav .nav ul li:nth-of-type(6) .subnav{height:240px;}
+header .container .header_nav .nav ul li:nth-of-type(7) .subnav{height:336px;}
+header .container .header_nav .nav ul li:nth-of-type(8) .subnav{height:96px;}
+header .container .header_nav .nav ul li .subnav{width:155px; border-radius:0 0 10px 10px;
+background:url(../img/subnav_bj.png); background-size:100%; position:absolute; left:-50px;
+top:48px; display:none; padding-top:17px; z-index:999;}
+header .container .header_nav .nav ul li .subnav a{display:block; height:48px; line-height:48px; padding-left:50px;}
+header .container .header_nav .nav ul li .subnav a:hover{background:url(../img/subnav_sy_bj.png) no-repeat 15px center,#fff;
+ color:#3f853f; opacity:.7;}/**/
+header .container .header_nav .nav ul li .subnav a:last-of-type{ border-radius:0 0 10px 10px;}
+
+header .container .header_code{width:120px; position:absolute; right:0; top:0; z-index:1000;}
+header .container .header_code img{display:block; margin:0 auto; width:80px; height:80px;}
+header .container .header_code p.shop{text-align:center; font-size:14px; color:#3f853f; line-height:16px;}
+header .container .header_code p.phone{padding-left:15px; line-height:20px; font-size:14px; color:#3f853f;
+background:url(../img/footer_phone.png) no-repeat left center;}
+/*======================= header end ========================*/
+
+/*======================= footer start ========================*/
+footer{background:#F2F2F2; padding-top:70px;}
+footer .footer_nav,footer .footer_right{float:left;}
+footer .footer_nav{padding-right:5px; border-right:1px solid #dcdcdc; padding-bottom:60px;}
+footer .footer_nav ul li{width:95px; text-align:left; float:left; line-height:26px;}
+footer .footer_nav ul li p{color:#666666; font-weight:bold; font-size:12px;}
+footer .footer_nav ul li a{display:block; color:#666666; font-size:12px;}
+footer .footer_nav ul li a:hover{color:#3F853F;}
+footer .footer_right{padding-top:40px; font-size:18px; color:#3f853f; line-height:20px; margin:0 auto;}
+footer .footer_right a{display:inline-block; margin:0 20px;}
+footer .footer_right p{padding-left:18px; background:url(../img/footer_phone.png) no-repeat left center;
+ width:135px; margin:25px auto 0 auto;}
+footer .footer_db{margin-top:40px; text-align:center; line-height:100px; border-top:1px solid #dcdcdc;
+ font-size:12px; color:#8c8c8c;}
+footer .footer_db a{color:#8c8c8c;}
+/*======================= footer end ========================*/
+/*======================= gotop start ======================================*/
+.gotop{width:60px; height:60px; background:url(../img/top.png) no-repeat center center; cursor:pointer;
+position:fixed; right:80px; bottom:20%;}
+.gotop:hover{background:url(../img/togreen.png) no-repeat center center;}

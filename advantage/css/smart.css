@@ -1,0 +1,26 @@
+.subnav ul li:nth-of-type(2) a{background:white;}
+.subnav ul li:nth-of-type(5) a,.subnav ul li:hover a{background:#e5e5e5;}
+/*smart*/
+.content .smart{width:960px; margin:0 auto;}
+.content .smart h1{height:45px; margin-bottom:50px; color: #3f853f; background:url(../img/title_pic.png) no-repeat right center;
+background-size:55%;}
+.content .smart h1 span{display:inline-block; vertical-align: text-bottom;}
+.content .smart h1 span.span1{font-size:32px; font-weight:bold;}
+.content .smart h1 span.span2{font-size:14px; line-height:16px; text-transform: uppercase; font-weight:normal;}
+.content .smart .smart_sec1{margin-bottom:10px;}
+.content .smart .smart_sec1 h2,.content .smart .smart_sec2 h2{font-size: 40px; line-height: 50px; color: #3f853f; font-weight: bold;}
+.content .smart .smart_sec1 h2 span,.content .smart .smart_sec2 h2 span{font-weight:normal;}
+.content .smart .smart_sec1>img{width:100%; margin-bottom:50px;}
+.content .smart .smart_sec1 .smart_list{margin-top:50px;}
+.content .smart .smart_sec1 ul li{float:left; width:448px; margin-right:61px; margin-bottom:50px;}
+.content .smart .smart_sec1 ul li:nth-of-type(2n){margin-right:0;}
+.content .smart .smart_list ul li img{width:100%; transition:.5s;}
+.content .smart ul li p,.content .smart .smart_sec2>p{line-height:28px; font-size:15px; color:#999999;}
+.content .smart .smart_sec1 ul li~li p{margin-top:10px;}
+.content .smart .smart_sec2 h2{margin-bottom:20px;}
+.content .smart .smart_sec2 .smart_list{margin-top:50px;}
+.content .smart .smart_sec2 .smart_list ul li{float:left; width:448px; margin-right:61px; margin-bottom:10px;}
+.content .smart .smart_sec2 .smart_list ul li:nth-of-type(2n){margin-right:0;}
+.content .smart .smart_sec2 .smart_list ul li h3{font-size: 20px; line-height: 30px; color: #3f853f; font-weight: bold; margin-top: 20px; margin-bottom: 10px;}
+.content .smart .smart_list ul li .image{overflow:hidden;}
+.content .smart .smart_list ul li img:hover{transform:scale(1.2,1.2);}
